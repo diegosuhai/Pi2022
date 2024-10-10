@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 2px solid white;
+}
+
+.titulo {
+padding-top: 10px;
+}
+.sobrenos {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.facaparte {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  border-top: 2px solid white;
+}

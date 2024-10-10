@@ -1,0 +1,73 @@
+.cursos-lista {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#home .cursos-lista {
+  padding-top: 60px;
+}
+
+.cursos-lista h2 {
+  margin-bottom: 20px;
+}
+
+.cursos-lista ul {
+  padding: 20px 0px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#home .cursos-lista ul {
+  max-width: 1400px;
+  padding: 20px;
+}
+
+.cursos-lista li {
+  flex: 1;
+  min-width: 280px;
+}
+
+.cursos-lista a {
+  display: block;
+}
+
+.cursos-lista img {
+  margin-bottom: 16px;
+}
+
+.cursos-lista h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.cursos-lista h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+  height: 8px;
+  background: #6b8ca7;
+  transition: width 0.2s;
+}
+
+.cursos-lista a:hover h3::before {
+  width: 24px;
+}
+
+.cursos-lista li span {
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .cursos-lista {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .cursos-lista ul {
+    gap: 20px;
+  }
+}

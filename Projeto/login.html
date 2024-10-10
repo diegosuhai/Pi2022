@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Login | IMTAC</title>
+    <link rel="stylesheet" href="css/login/style.css">
+    <link rel="icon" href="img/teste.jpg">
+</head>
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="email" name="username" id="username"
+                placeholder="Email">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                pattern="[a-zA-Z0-9]{10}"    placeholder="Senha">
+                <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="Entrar">
+        </form>
+
+        <div class="footer">
+            <span>Ou conecte-se com uma rede social</span>
+            <div class="social-fields">
+                <div class="social-field twitter">
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
+                        <i class="fab fa-twitter"></i>
+                        Entre com o Twitter
+                    </a>
+                </div>
+                <div class="social-field facebook">
+                    <a href="https://pt-br.facebook.com/login/device-based/regular/login/">
+                        <i class="fab fa-facebook-f"></i>
+                        Entre com o Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="inicial">
+        <a href="index.html">Página inicial</a>
+        </div>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>

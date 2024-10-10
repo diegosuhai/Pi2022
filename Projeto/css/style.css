@@ -1,0 +1,19 @@
+@import "./global/global.css";
+
+/* Utilidades */
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+
+/* Header e Footer */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/* Cursos */
+@import "./cursos/cursos-lista.css";

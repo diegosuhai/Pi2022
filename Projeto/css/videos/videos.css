@@ -1,0 +1,65 @@
+.header-bg {
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding: 20px;
+    background-color: var(--cor-12);
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-top: 2px solid white;
+}
+
+.video {
+    background-color: var(--cor-12);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.row .professor {
+    background-color: var(--cor-12);
+    padding-top: 40px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-top: 2px solid white;
+}
+
+.row .professor > img {
+    border-radius: 350px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.row .professor > h3 {
+    text-align: relative;
+    color: white;
+    padding-top: 10px;
+}
+
+.row .professor > h2 {
+    text-align: relative;
+    color: white;
+    padding-top: 10px;
+}
+
+.row .professor > ul {
+    color: #b1cad7;
+    list-style-type: disc;
+    padding: 10px;
+}
+
+.row .professor > ul > p {
+    color: white;
+    padding-top: 10px;
+}
+
+.row .professor > ul > p > a {
+    text-decoration: underline;
+}
+
+#anchor2 {
+    border-top: 2px solid white;
+}
